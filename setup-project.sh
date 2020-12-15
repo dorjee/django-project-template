@@ -166,7 +166,7 @@ from rest_framework.response import Response
 class ${DefaultView}(viewsets.ViewSet):
     def list(self, request):
         """Just returns a string, for now."""
-        return Response("${APP} API service!")
+        return Response("Your first API endpoint!")
 EOT
 
 echo "${green}>>> Done${reset}"
